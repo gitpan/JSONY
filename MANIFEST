@@ -11,7 +11,6 @@ t/decode.t
 t/edge.tml
 t/fail.t
 t/json.t
-t/jsony.t
 t/TestML_JSONY.pm
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)

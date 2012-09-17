@@ -3,9 +3,9 @@ abstract: unknown
 author:
   - unknown
 build_requires:
-  JSON: 0
-  TestML: 0
-  YAML: 0
+  JSON: 2.53
+  TestML: 0.27
+  YAML: 0.84
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -20,5 +20,5 @@ no_index:
     - t
     - inc
 requires:
-  Pegex: 0
-version: v0.0.1
+  Pegex: 0.20
+version: v0.0.2
