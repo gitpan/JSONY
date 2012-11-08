@@ -23,7 +23,7 @@
       "build" : {
          "requires" : {
             "JSON" : "2.53",
-            "TestML" : "0.27",
+            "TestML" : "0.28",
             "YAML" : "0.84"
          }
       },
@@ -34,11 +34,11 @@
       },
       "runtime" : {
          "requires" : {
-            "Pegex" : "0.20",
+            "Pegex" : "0.21",
             "boolean" : "0.28"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "v0.0.6"
+   "version" : "v0.0.7"
 }
