@@ -7,8 +7,6 @@ use 5.008001;
 
 use ExtUtils::MakeMaker 6.30;
 
-use File::ShareDir::Install;
-install_share dist => "share";
 
 
 my %WriteMakefileArgs = (
@@ -16,22 +14,21 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Ingy d\x{f6}t Net <ingy\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30",
-    "File::ShareDir::Install" => "0.03"
+    "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "JSONY",
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "JSONY",
   "PREREQ_PM" => {
-    "Pegex" => "0.24",
+    "Pegex" => "0.30",
     "boolean" => "0.31"
   },
   "TEST_REQUIRES" => {
     "JSON" => "2.90",
-    "YAML" => "0.88"
+    "YAML" => "0.90"
   },
-  "VERSION" => "0.0.9",
+  "VERSION" => "0.1.0",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -40,8 +37,8 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "JSON" => "2.90",
-  "Pegex" => "0.24",
-  "YAML" => "0.88",
+  "Pegex" => "0.30",
+  "YAML" => "0.90",
   "boolean" => "0.31"
 );
 
@@ -57,10 +54,5 @@ delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
 
 WriteMakefile(%WriteMakefileArgs);
 
-{
-package
-MY;
-use File::ShareDir::Install qw(postamble);
-}
 
 
