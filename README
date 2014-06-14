@@ -3,7 +3,7 @@ NAME
 
 SYNOPSIS
         use JSONY;
-    
+
         my $data = JSONY->new->load($jsony_string);
 
 DESCRIPTION
@@ -22,7 +22,7 @@ JSONY SYNTAX
     Words don't need quotes. A list of things is an array:
 
         foo bar baz
-    
+
         [ "foo", "bar", "baz" ]
 
     Strings with spaces can use single or double quotes:
@@ -30,7 +30,7 @@ JSONY SYNTAX
         'foo bar'      # <= This is (a comment indicating) a string
         # More commenting
         "baz  boom "
-    
+
         [ "foo bar ", "baz  boom " ]
 
     Top level hashes can be ':' separated pairs or use curlies. Sub hashes
@@ -38,7 +38,7 @@ JSONY SYNTAX
 
         foo: { bar baz }
         num: -1.2e3
-    
+
         { "foo": { "bar": "baz" }, "num": -1.2e3 }
 
     Top level arrays can use '- ' at the start of lines. Those arrays go the
@@ -51,7 +51,7 @@ JSONY SYNTAX
           things }]
         - array of 7 things on,
           two lines
-    
+
         [
           [ "array", "of", 4, "scalars" ],
           [ "array", "with", [ "sub", "array" { "of": "things" } ] ],
@@ -68,6 +68,10 @@ STATUS
 
     Development people are working on this in "#jsony" and "#pegex" in
     irc.freenode.net. Please drop by.
+
+    JSONY.pm is a very simple Pegex-based parser. You can see the quite tiny
+    JSONY grammar here:
+    <http://github.com/ingydotnet/jsony-pgx/blob/master/jsony.pgx>
 
     <http://jsony.org> coming soon.
 

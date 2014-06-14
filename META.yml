@@ -7,13 +7,19 @@ build_requires:
   YAML: '0.90'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
+  File::ShareDir::Install: '0.06'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: JSONY
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
 requires:
   Pegex: '0.30'
   boolean: '0.31'
@@ -22,4 +28,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/jsony-pm/issues
   homepage: https://github.com/ingydotnet/jsony-pm
   repository: https://github.com/ingydotnet/jsony-pm.git
-version: 0.1.0
+version: 0.1.1
