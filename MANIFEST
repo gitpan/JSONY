@@ -12,7 +12,6 @@ inc/Pegex/Bootstrap.pm
 inc/Pegex/Compiler.pm
 inc/Pegex/Grammar.pm
 inc/Pegex/Input.pm
-inc/Pegex/Optimizer.pm
 inc/Pegex/Parser.pm
 inc/Pegex/Receiver.pm
 inc/Pegex/Tree.pm
