@@ -7,7 +7,10 @@ META.json
 META.yml
 Makefile.PL
 README
+inc/Pegex.pm
 inc/Pegex/Base.pm
+inc/Pegex/Bootstrap.pm
+inc/Pegex/Compiler.pm
 inc/Pegex/Grammar.pm
 inc/Pegex/Input.pm
 inc/Pegex/Optimizer.pm
@@ -35,6 +38,7 @@ share/jsony.pgx
 t/TestMLBridge.pm
 t/changes.t
 t/release-pod-syntax.t
+t/safe.t
 t/testml-fail.t
 t/testml-json.t
 t/testml-load.t

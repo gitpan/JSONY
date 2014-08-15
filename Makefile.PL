@@ -25,14 +25,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "JSONY",
   "PREREQ_PM" => {
-    "Pegex" => "0.30",
+    "Pegex" => "0.50",
     "boolean" => "0.31"
   },
   "TEST_REQUIRES" => {
     "JSON" => "2.90",
     "YAML" => "0.90"
   },
-  "VERSION" => "0.1.5",
+  "VERSION" => "0.1.6",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,7 +41,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "JSON" => "2.90",
-  "Pegex" => "0.30",
+  "Pegex" => "0.50",
   "YAML" => "0.90",
   "boolean" => "0.31"
 );

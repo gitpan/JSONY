@@ -22,11 +22,11 @@ no_index:
     - xt
     - example
 requires:
-  Pegex: '0.30'
+  Pegex: '0.50'
   boolean: '0.31'
   perl: v5.8.1
 resources:
   bugtracker: https://github.com/ingydotnet/jsony-pm/issues
   homepage: https://github.com/ingydotnet/jsony-pm
   repository: https://github.com/ingydotnet/jsony-pm.git
-version: 0.1.5
+version: 0.1.6
