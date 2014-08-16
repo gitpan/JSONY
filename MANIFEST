@@ -35,6 +35,7 @@ lib/JSONY.pod
 lib/JSONY/Grammar.pm
 lib/JSONY/Receiver.pm
 share/jsony.pgx
+t/000-compile-modules.t
 t/TestMLBridge.pm
 t/changes.t
 t/release-pod-syntax.t
