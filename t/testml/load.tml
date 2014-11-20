@@ -162,3 +162,8 @@ baz: 42
 - foo bar
 --- json: [["foo", "bar"],["foo", "bar"]]
 
+=== Terminal comment
+--- jsony
+abcd: goldfish
+\# Comment
+--- json: {"abcd": "goldfish"}
